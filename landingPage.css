@@ -4,7 +4,6 @@ body{
 }
 
 #logo{
-    border: 1px solid red;
     background-image: url(images/boat.JPG);
     width: 120px;
     height: 120px;
@@ -22,7 +21,8 @@ body{
 
 #bookNow{
  
-    background-color: rgba(7, 7, 7, 0.3)
+    background-color: rgba(7, 7, 7, 0.3);
+    color:whitesmoke;
 }
 
 .windMill{
@@ -30,7 +30,7 @@ body{
     background-size: cover;
     background-position: bottom;
     margin-bottom: 20px;
-    height: 450px;
+    height: 500px;
     z-index: -1;
 }
 .windmillText{
@@ -56,22 +56,22 @@ body{
 
 
 /* Fishing table style */
-#fishingTable {
+.fishingTable {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
   }
   
-  #fishingTable td, #fishingTable th {
+  .fishingTable td, #fishingTable th {
     border: 1px solid #ddd;
     padding: 8px;
   }
   
-  #fishingTable tr:nth-child(even){background-color: #f2f2f2;}
+  .fishingTable tr:nth-child(even){background-color: #f2f2f2;}
   
-  #fishingTable tr:hover {background-color: #ddd;}
+  .fishingTable tr:hover {background-color: #ddd;}
   
-  #fishingTable th {
+  .fishingTable th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
