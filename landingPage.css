@@ -126,7 +126,120 @@ body{
 }
 
 
+
+
+
+
+#div_fish_img1{
+    background-image: url(images/img_fish_info1.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 315px;
+}
+#display_text_fish1{
+    display: none;
+    background-color: rgba(7, 7, 7, 0.5);
+    height: 100%;
+}
+/* ----------------------- */
+#div_fish_img2{
+    background-image: url(images/img_fish_info2.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 315px;
+}
+#display_text_fish2{
+    display: none;
+    background-color: rgba(7, 7, 7, 0.5);
+    height: 100%;
+}
+/* ------------------------------ */
+#div_fish_img3{
+    background-image: url(images/img_fish_info3.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 315px;
+}
+#display_text_fish3{
+    display: none;
+    background-color: rgba(7, 7, 7, 0.5);
+    height: 100%;
+}
+/* ---------------------- */
+#div_fish_img4{
+    background-image: url(images/img_fish_info4.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 315px;
+}
+#display_text_fish4{
+    display: none;
+    background-color: rgba(7, 7, 7, 0.5);
+    height: 100%;
+}
+/* ------------------------------------- */
+#div_fish_img5{
+    background-image: url(images/img_fish_info5.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 315px;
+}
+#display_text_fish5{
+    display: none;
+    background-color: rgba(7, 7, 7, 0.5);
+    height: 100%;
+}
+/* ------------------------------------- */
+#div_fish_img6{
+    background-image: url(images/img_fish_info6.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 315px;
+}
+#display_text_fish6{
+    display: none;
+    background-color: rgba(7, 7, 7, 0.5);
+    height: 100%;
+}
+/* ------------------------------------- */
+
+.text p{
+    color: white;
+    padding-top: 30%;
+}
+/* .write{
+    border: 3px solid white;
+    height: 100%;
+    display: none;
+}
+
+#caine{
+    height: 500px;
+}
+#pisica{
+    
+    background-color: rgba(7, 7, 7, 0.3);
+    height: 100%;
+    display: none;
+} */
+
+
+
+
+
+
+
+
+
+
+
 #videos_div{
     display: none;
-    font-size: 20px;
+    font-size: 15px;
 }
