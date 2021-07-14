@@ -1,0 +1,49 @@
+.logo{
+
+
+        display: grid;
+        grid-template-columns:15rem;
+        grid-template-rows: repeat(3, min-content);
+       justify-content: center;
+       justify-items: center;
+
+       width: 15rem;
+       height: 13rem;
+    
+    
+        &__img{
+            width: 100%;
+            transform: translate(-1rem,-3rem);
+
+
+        }
+        &__name{
+            font-family:'Italiana', serif;
+            font-size: 2.8rem;
+            color: rgb(103, 171, 48);
+            transform: translateY(-7.6rem);
+    
+        }
+        &__restaurant{
+            font-family: 'Italianno', cursive;
+            font-size: 2.3rem;
+            background-image: linear-gradient(to right, rgb(81, 148, 27),rgb(252, 247, 247), rgb(217, 11, 11));
+            -webkit-background-clip: text;
+            color: transparent;
+            transform: translateY(-8.5rem);
+            text-shadow: 0 .1rem 0 rgba(0, 0, 0, .2);
+            
+        }
+    }
+    .logo-container {
+        display: grid;
+        justify-items: center;
+    }
+
+
+
+//     <div class="logo">
+//     <img src="img/olive3.png" alt="" class="logo__img">
+//     <h1 class="logo__name">Olive Tavern</h1>
+//     <h3 class="logo__restaurant">Ristorante Italiano</h3>
+// </div>
